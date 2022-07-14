@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 15px;    
+}
+
+main {
+    background-color: rgb(66, 67, 68);
+}
+
+.container {
+    max-width: 1500px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.cards {
+    list-style: none;
+    padding: 0px;
+    padding-top: 50px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 8px 5px rgb(29, 29, 29);
+    
+}
+
+li > div:hover {
+    box-shadow: 0px 0px 20px orange;
+
+}
+
+.information {
+    display: block;
+    margin: 0 0 25px;
+}
+
+.cards>li {
+    padding: 0px 30px 60px;
+    width: calc(100%/3);
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 12px 10px #3e3e3e;
+}
+
+.card_content {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+h3+ul {
+    margin-top: 10px;
+
+}
+
+.moreinf {
+    margin-top: 10px;
+    padding-bottom: 10px;    
+}
+
+.moreinf a:hover {
+    color: orange;
+    padding-top: 10px;
+    
+}
+
+.moreinf>a {
+    padding-top: 10px;   
+    text-decoration: none;
+    color: rgb(129, 129, 129);
+}
+
